@@ -1,7 +1,8 @@
 # 320x240 Landscape Keyboard
 
-This is code for a landscape mode keyboard on 320x240 displays using the ILI9341 TFT and an XPT2046 touchscreen.  
-You must install and set up your config file for TFT_eSPI library to use this.
+This is code for a landscape mode keyboard on 320x240 displays using the ILI9341 TFT and an XPT2046 touchscreen. You must install and set up your config file for TFT_eSPI library to use this.
+
+I only tested this on ESP32 but it should work on NodeMCU (ESP12F ESP12E) or Arduino. 
 
 ![ILI9341-project](https://github.com/ddxfish/320x240-Landscape-Touch-Keyboard-Arduino/assets/6764685/4605c90c-ab53-414d-b1f8-d458132bd77e)
 
