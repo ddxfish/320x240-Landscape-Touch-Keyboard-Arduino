@@ -3,10 +3,15 @@
 This is code for a landscape mode keyboard on 320x240 displays using the ILI9341 TFT and an XPT2046 touchscreen.  
 You must install and set up your config file for TFT_eSPI library to use this.
 
+![ILI9341-project](https://github.com/ddxfish/320x240-Landscape-Touch-Keyboard-Arduino/assets/6764685/4605c90c-ab53-414d-b1f8-d458132bd77e)
+
 ## Compatibility
 ILI9341 red display  
 XPT2046 touch panel on the display  
 (not for Adafruit TFT, different touch chip)  
+
+![ili9341](https://github.com/ddxfish/320x240-Landscape-Touch-Keyboard-Arduino/assets/6764685/abb2c960-3d67-4e18-90af-bcdc6bef271f)
+
 
 ## Wiring
 Wire TFT and Touch into your SPI bus pins, make sure TFT_eSPI knows which pins they are. CS and DC pins for TFT went to any GPIO. CS pin for touch went to any GPIO.
